@@ -1,7 +1,4 @@
 Rails.application.routes.draw do
-  resources :beers
-  # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
-
-  # Defines the root path route ("/")
-  # root "articles#index"
+  root 'beers#index'
+  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end

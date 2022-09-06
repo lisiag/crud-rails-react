@@ -8,5 +8,5 @@ import App from "../components/index";
 // });
 
 const root = createRoot(document.documentElement);
-const element = <h1>Hello, world</h1>;
+const element = <App />;
 root.render(element);
